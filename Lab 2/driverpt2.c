@@ -13,7 +13,7 @@
 
 #define PROCESS_COUNT 2 //adjustable amount
 #define LINE_MAX_LENGTH 512
-#define DATA_FILE "test.csv"
+#define DATA_FILE "all_month.csv" // CHANGE NAME WITH INPUT DATA FILE
 
 int countNumLines(const char *filename){
     FILE *fp = fopen(filename, "r");
