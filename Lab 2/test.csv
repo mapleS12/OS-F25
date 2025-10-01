@@ -1,0 +1,7 @@
+time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,type,horizontalError,depthError,magError,magNst,status,locationSource,magSource
+2025-09-29T12:34:56,34.1,-117.2,10.0,2.5,ml,12,45,0.5,0.1,us,abcd1234,2025-09-29T13:00:00,Los Angeles,earthquake,0.2,0.5,0.1,12,reviewed,us,us
+2025-09-28T08:12:30,36.2,-118.4,5.0,3.1,ml,15,30,0.8,0.2,us,abcd1235,2025-09-28T09:00:00,San Francisco,earthquake,0.3,0.6,0.2,15,reviewed,us,us
+2025-09-30T03:20:10,33.5,-116.8,12.0,2.9,ml,8,50,0.4,0.15,us,abcd1236,2025-09-30T03:50:00,Sacramento,earthquake,0.25,0.5,0.1,8,reviewed,us,us
+2025-09-27T14:45:00,35.8,-119.1,7.0,3.0,ml,10,40,0.6,0.12,us,abcd1237,2025-09-27T15:10:00,Fresno,earthquake,0.2,0.55,0.15,10,reviewed,us,us
+2025-09-29T22:10:05,34.5,-117.5,8.0,2.8,ml,14,35,0.5,0.1,us,abcd1238,2025-09-29T22:40:00,San Diego,earthquake,0.3,0.5,0.12,14,reviewed,us,us
+2025-09-28T16:30:00,36.0,-118.0,6.0,3.2,ml,11,33,0.7,0.18,us,abcd1239,2025-09-28T17:00:00,Oakland,earthquake,0.25,0.6,0.2,11,reviewed,us,us

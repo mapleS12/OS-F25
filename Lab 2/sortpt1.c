@@ -77,6 +77,8 @@ int main(int argc, char *argv[]){
     int recordCount = 0;
     char buffer[LINE_MAX_LENGTH];
 
+
+    fgets(buffer, LINE_MAX_LENGTH, fp);
     while (fgets(buffer, LINE_MAX_LENGTH, fp)&& recordCount<MAX_NUM_RECORDS)
     {
         buffer[strcspn(buffer, "\n")] =0;
@@ -107,7 +109,8 @@ int main(int argc, char *argv[]){
     }
 
     printf("Sorter PID %d | Sorted %d records, from %s in %f seconds.\n", getpid(), recordCount, inputFilename, spentTime);
-
+    //manually typing a header
+    fprintf(outfp, "time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,type,horizontalError,depthError,magError,magNst,status,locationSource,magSource\n");
     for(int i=0; i<recordCount; i++){
         fprintf(outfp, "%s\n", data[i]);
         free(data[i]);
