@@ -11,7 +11,7 @@
 #include <sys/types.h>
 #include <sys/wait.h>
 
-#define PROCESS_COUNT 2 //adjustable amount
+#define PROCESS_COUNT 2 //adjustable amount CHANGE HERE
 #define LINE_MAX_LENGTH 512
 #define DATA_FILE "all_month.csv" // CHANGE NAME WITH INPUT DATA FILE
 
